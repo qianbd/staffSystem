@@ -29,5 +29,19 @@ public:
 	int get_EmpNum();
 	
 	void init_Emp();
+
+	void Show_Emp();
+
+	void Del_Emp();
+	int IsExist(int id);
+
+	void Mod_Emp();
+
+	void Find_Emp();
+
+	void Sort_Emp();
+
+	void Clean_File();
+
 	~WorkManager();
 };
